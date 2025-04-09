@@ -5,5 +5,5 @@ function truncate(texte, maxLength) {
     return texte;
 }
 
-let result = truncate("Le développement en JavaScript est passionnant.", 20);
+let result = truncate("Je prefre le SASS à Tailwind", 20);
 console.log(result); 
